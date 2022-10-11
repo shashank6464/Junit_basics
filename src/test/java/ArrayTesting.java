@@ -16,6 +16,7 @@ public class ArrayTesting {
         assertEquals(3,result);
     }
 
+
     @Test
     public void searchNumberTest(){
 
@@ -34,7 +35,7 @@ public class ArrayTesting {
         assertNotNull(result);
        // assertEquals(null, result);
 
-        fail("Unfinished method");
+       // fail("Unfinished method");
 
 
 
@@ -46,6 +47,27 @@ public class ArrayTesting {
         ArrayMethods obj = new ArrayMethods();
 
         assertEquals(-1,obj.findIndex(new int[]{}, 2));
+
+    }
+
+    @Test
+    public void findIndexOutofBound(){
+
+        ArrayMethods obj = new ArrayMethods();
+        assertThrows(ArrayIndexOutOfBoundsException.class, () -> obj.printArray(new int[]{1,2}, 4));
+
+    }
+
+    @Test
+    public void findIndexMultiple(){
+        ArrayMethods obj = new ArrayMethods();
+
+        assertAll(
+                () -> assertEquals(1, obj.findIndex(new int[]{1,2}, 2)),
+                () -> assertEquals(2, obj.findIndex(new int[]{1}, 2))
+
+        );
+
 
     }
 

@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681fe908-7ca9-4463-b84b-8ebfd7c5094f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/testPackage/ArrayMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
+    <list default="true" id="681fe908-7ca9-4463-b84b-8ebfd7c5094f" name="Changes" comment="basic assertions in Junit">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testPackage/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/testPackage/ArrayMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665461407450</updated>
     </task>
+    <task id="LOCAL-00001" summary="basic assertions in Junit">
+      <created>1665464852216</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665464852217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic assertions in Junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic assertions in Junit" />
   </component>
 </project>

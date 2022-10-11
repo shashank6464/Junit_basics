@@ -15,6 +15,11 @@ public class ArrayMethods {
         return index;
     }
 
+    public void printArray(int[] arr, int index){
+        System.out.println(arr[index]);
+    }
+
+
     public boolean searchNumber(int[] arr, int num){
         boolean found = false;
 
