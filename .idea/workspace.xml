@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="681fe908-7ca9-4463-b84b-8ebfd7c5094f" name="Changes" comment="basic assertions in Junit">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" afterDir="false" />
+    <list default="true" id="681fe908-7ca9-4463-b84b-8ebfd7c5094f" name="Changes" comment="Test Life Cycle hooks annotations (Beforeach, BeforeAll ...)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/Mock/StudentServiceMockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mockito/Mock/StudentServiceMockitoAnnotationsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/studentTestings/GetScoresTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/testPackage/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/testPackage/ArrayMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ArrayTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/ArrayTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestLifeCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arrayTestings/TestLifeCycle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,28 @@
       <recent name="" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="GetScoresTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Junit_basics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="studentTestings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="studentTestings" />
+      <option name="MAIN_CLASS_NAME" value="studentTestings.GetScoresTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GetScoresTesting" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665464852217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Life Cycle hooks annotations (Beforeach, BeforeAll ...)">
+      <created>1665470048043</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665470048043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,6 +111,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="basic assertions in Junit" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic assertions in Junit" />
+    <MESSAGE value="Test Life Cycle hooks annotations (Beforeach, BeforeAll ...)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Life Cycle hooks annotations (Beforeach, BeforeAll ...)" />
   </component>
 </project>

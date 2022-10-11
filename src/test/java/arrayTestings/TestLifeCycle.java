@@ -1,3 +1,5 @@
+package arrayTestings;
+
 import org.example.testPackage.ArrayMethods;
 import org.junit.jupiter.api.*;
 
